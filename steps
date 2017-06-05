@@ -1,0 +1,22 @@
+Steps: 
+
+We'd like to retrieve the following:
+8. brand [first word(s), discovered by pattern recognition]
+4. way of powering the device  [ text filtering]( first because unambigious)
+2. material [text filtering]
+1. colour [text filtering]
+3. size [interpretation]
+
+5. all other features
+6. the product type
+7. product group
+
+
+how to conduct filtering when having list of possibilities at hand:
+1.  first pass stuff trough linguistic model if not allready done (only when available)
+2. Look for possible values (we have conducted a list of possible values at this point) within text
+3. when ambiguous (colour and material) look for a value of the other type before settling with the conclusion of your first discovered value( E.G. silver stainless steel watch should give silver as colour and stainless steel as material)
+4. delete the text from the working copy of the original material to make subsequent searches eazyer
+ 
+
+
